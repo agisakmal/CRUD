@@ -310,7 +310,12 @@
       <b>Version</b> 2.3.8
     </div>
     <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
-    reserved.
+    reserved. <br>
+
+    <a href="<?php echo base_url() ?>codeversioning/codeversi.html#" class="text-center">Code Versioning.</a> <br>
+
+    <a href="<?php echo base_url() ?>Panduan.pdf#" class="text-center">Panduan</a>
+    
   </footer>
 
   <!-- Control Sidebar -->

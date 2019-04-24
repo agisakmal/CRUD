@@ -21,20 +21,12 @@
 		<input type="text" name="tanggal_lahir" class="form-control" placeholder="Tanggal Lahir" value="<?php echo $tanggal_lahir ?>">
 	</div>
 	<div class="form-group">
-		<label>Kelas</label><br>
-		<input type="text" name="kelas" class="form-control" placeholder="Kelas" value="<?php echo $kelas ?>">
-	</div>
-	<div class="form-group">
 		<label>Alamat</label><br>
 		<input type="text" name="alamat" class="form-control" placeholder="Alamat" value="<?php echo $alamat ?>">
 	</div>
 	<div class="form-group">
 		<label>No Hp</label><br>
 		<input type="text" name="no_hp" class="form-control" placeholder="No Hp" value="<?php echo $no_hp ?>">
-	</div>
-	<div class="form-group">
-		<label>Semester</label><br>
-		<input type="text" name="semester" class="form-control" placeholder="Semester" value="<?php echo $semester ?>">
 	</div>
 
 	<div class="form-group">

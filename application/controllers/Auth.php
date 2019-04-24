@@ -45,12 +45,7 @@ class Auth extends CI_Controller {
 			'fullname'=>$fullname,
 			'username'=>$username,
 			'password'=>md5($password));
-		// $result=$this->model->simpan('users',$data);
-		// 	if ($result > 0) {
-		// 		echo "Data users berhasil disimpan";
-		// 	}else{
-		// 		echo "Data users gagal disimpan";
-		// 	}
+
 
 		}
 

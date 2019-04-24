@@ -39,6 +39,5 @@ class Model extends CI_Model
 	{
 		return $this->db->query("SELECT * FROM siswa WHERE username='$username' AND no_hp='".md5($no_hp)."'");
 	}
-
 }
 ?>
