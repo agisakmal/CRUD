@@ -1,7 +1,7 @@
 <form action="<?php echo base_url() ?>index.php/administrator/update2" method="post">
 	<input type="hidden" name="nis" value="<?php echo $id ?>">
 	<div class="form-group">
-		<label>Nama Siswa</label><br>
+		<label>Nama Guru</label><br>
 		<input type="text" name="nama_siswa" class="form-control" placeholder="Nama Siswa" value="<?php echo $nama_siswa ?>">
 	</div>
 	<div class="form-group">
@@ -20,6 +20,7 @@
 		<label>Tanggal Lahir</label><br>
 		<input type="text" name="tanggal_lahir" class="form-control" placeholder="Tanggal Lahir" value="<?php echo $tanggal_lahir ?>">
 	</div>
+
 	<div class="form-group">
 		<label>Alamat</label><br>
 		<input type="text" name="alamat" class="form-control" placeholder="Alamat" value="<?php echo $alamat ?>">
