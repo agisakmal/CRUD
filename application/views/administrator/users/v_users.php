@@ -14,7 +14,7 @@
       <td><?php echo $no ?></td>
       <td><?php echo $k['fullname']; ?></td>
       <td><?php echo $k['username']; ?></td>
-<!--       <td><?php echo $k['password']; ?></td> -->
+      <td><?php echo $k['password']; ?></td>
       <td> 
         <a href="<?php echo base_url('index.php/administrator/edit/'.$k['id_user']) ?>" class="btn btn-success">
           <span class="fa fa-edit"></span> Edit
